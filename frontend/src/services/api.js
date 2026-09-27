@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://canteencit.onrender.com';
+const API_BASE_URL = 'https://canteencit.onrender.com/api';
 
 async function fetchAPI(endpoint, options = {}) {
   const token = localStorage.getItem('canteen_token');
