@@ -1,8 +1,8 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://canteencit.onrender.com';
 
 async function fetchAPI(endpoint, options = {}) {
   const token = localStorage.getItem('canteen_token');
-  
+
   const headers = {
     'Content-Type': 'application/json',
     ...(options.headers || {})
